@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  awsRegion: 'us-east-1f',
+  awsAccessKeyId: 'AKIA3BFJXXL3WKBRB7WS',
+  awsSecretAccessKey: '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',
+  awsSecretArn: 'arn:aws:secretsmanager:us-east-1:758417701623:secret:checklist-svNO2H',
+  awsResourceArn: 'arn:aws:rds:us-east-1:758417701623:db:checklist-1',
+  awsDatabaseName: 'checklist-1'
 };
 
 /*
